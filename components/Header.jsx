@@ -18,7 +18,9 @@ const Header = () => {
         <span className="mr-5 hover:text-orange-600 cursor-pointer">
           Contact
         </span>
-        <span className="hover:text-orange-600 cursor-pointer">Resume</span>
+        <span className="hover:text-orange-600 cursor-pointer">
+          <a href="resume.pdf">Resume</a>
+        </span>
       </div>
     </div>
   );

@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from "@next/font/google";
+import Projects from "@/components/Projects";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -43,7 +44,7 @@ export default function Home() {
         </p>
       </div>
       <div className="pl-40 pt-20 text-3xl bg-gray-900 text-white">
-        <h2 className="font-bold">PROJECTS</h2>
+        <Projects />
       </div>
     </>
   );
